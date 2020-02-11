@@ -1,0 +1,12 @@
+{
+	"name": "RestJsonTest",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "http://echo.jsontest.com/key/value/one/two ",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
