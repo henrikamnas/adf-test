@@ -1,0 +1,19 @@
+{
+	"name": "Input",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HasAfdLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "input.txt",
+				"folderPath": "input",
+				"container": "adf-blob"
+			}
+		}
+	}
+}
