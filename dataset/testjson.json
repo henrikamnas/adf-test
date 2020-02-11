@@ -1,0 +1,16 @@
+{
+	"name": "testjson",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "RestJsonTest",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			}
+		}
+	}
+}
